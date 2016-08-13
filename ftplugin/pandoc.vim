@@ -8,7 +8,7 @@ if exists('b:did_ftplugin')
 endif
 let b:did_ftplugin = 1
 
-let c:cpo_save = &cpo
+let s:cpo_save = &cpo
 
 let b:undo_ftplugin = "setl spell< sw< sts< fo< flp< fp< tw<"
 
